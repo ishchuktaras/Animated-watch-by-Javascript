@@ -5,3 +5,10 @@ body {
 	align-items: center;
 	justify-content: center;
 }
+
+.hour_marker {
+	fill: transparent;
+	stroke: black;
+	stroke-width: 13;
+	stroke-dasharray: 0.2 4.8;
+}
