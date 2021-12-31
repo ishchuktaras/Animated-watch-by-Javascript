@@ -12,3 +12,10 @@ body {
 	stroke-width: 13;
 	stroke-dasharray: 0.2 4.8;
 }
+
+.minute_marker {
+	fill: transparent;
+	stroke: white;
+	stroke-width: 10;
+	stroke-dasharray: 0.2 0.8;
+}
