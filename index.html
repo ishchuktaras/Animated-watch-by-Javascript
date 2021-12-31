@@ -1,23 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Animated watch</title>
-	<link rel="stylesheet" href="style.css">
-</head>
-<body>
-	<svg width="200" height="200" viewbox="-100 -100 200 200">
-		<circle class="minute_marker" cx="0" cy="0" r="90"
-		
-		pathLength="60"/>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animated watch</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <svg width="200" height="200" viewbox="-100 -100 200 200">
+      <circle class="minute_marker" cx="0" cy="0" r="90" pathLength="60" />
+      <circle class="hour_marker" cx="0" cy="0" r="90" pathLength="60" />
+			<line 
+			x1="0" 
+			x2="0" 
+			x2="0" 
+			y2="-50" 
+			stroke="#ffffff"
+			stroke-width="2"
+			stroke-linecap="round" />
 
-		<circle class="hour_marker"cx="0" cy="0" r="90"
-		
-		pathLength="60"/>
-	
-	</svg>
-</body>
-<script src="script.js"></script>
+			<line 
+			x1="0" 
+			y1="-12" 
+			x2="0" 
+			y2="-50" 
+			stroke="#ffffff"
+			stroke-width="7"
+			stroke-linecap="round" />
+
+    </svg>
+  </body>
+  <script src="script.js"></script>
 </html>
