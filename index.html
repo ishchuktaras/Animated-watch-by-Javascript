@@ -11,8 +11,10 @@
     <svg width="200" height="200" viewbox="-100 -100 200 200">
       <circle class="minute_marker" cx="0" cy="0" r="90" pathLength="60" />
       <circle class="hour_marker" cx="0" cy="0" r="90" pathLength="60" />
-      <line class="hand" x1="0" x2="0" x2="0" y2="-50" />
-      <line class="hand hand_thick" x1="0" y1="-12" x2="0" y2="-50" />
+      <g id="hour_hand">
+        <line class="hand" x1="0" x2="0" x2="0" y2="-50" />
+        <line class="hand hand_thick" x1="0" y1="-12" x2="0" y2="-50" />
+      </g>
     </svg>
   </body>
   <script src="script.js"></script>
