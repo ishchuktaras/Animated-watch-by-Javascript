@@ -33,3 +33,10 @@ body {
 .hand_second {
 	stroke: yellow;
 }
+
+.center {
+	fill: #7b0828;
+	stroke-width: 2;
+	stroke: #ffffff;
+
+}
